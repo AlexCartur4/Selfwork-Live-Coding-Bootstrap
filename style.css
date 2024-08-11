@@ -2,160 +2,80 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.background-container {
-    width: 100%;
-    height: 80vh; 
-    background-image: url('./media/bg-1.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+:root{
+    --yellow: rgb(255,237,0);
+    --main: rgb(29,21,73);
+    --acc: rgb(187,38,193);
 }
 
-.game-arcade{
-    width: 400px;
-    margin-top: 120px;
+.header-custom{
+    background-image: url(./media/bg-1.jpg);
 }
 
-.logo-custom{
-    width: 100px;
-}
-
-.background-container2{
-    width: 100%;
-    height: 80vh; 
-    background-color: rgb(61, 23, 97);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo-neon{
-    width: 300px;
-    height: 350px;
-}
-
-.background-container3{
-    width: 100%;
-    height: 80vh; 
-    background-image: url('./media/bg-2.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form{
-    background-color: rgb(61, 23, 97) ;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.calendar{
-    width: 80px;
-    height: 80px;
-    background-color: yellow;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-group input{
-    background-color: rgb(61, 23, 97);
-    margin-bottom: 20px;
-    border: none;
-    border-bottom: 2px solid rgb(189, 41, 194);
-    color: white;
-}
-
-.form-check{
-    color: white;
-    padding: 0;
-}
 
 .btn-custom{
-    width: 100%;
-    border-radius: 18px;
-
+    border: 1px solid var(--yellow);
+    color: var(--yellow);
 }
 
-.background-container4{
-    background-color: rgb(42, 15, 67);
+.btn-custom:hover{
+    background-color: var(--yellow);
+    transition: 0.5s;
 }
 
-.logo-aulab{
-    width: 400px;
-    
+.bi-calendar-event-fill{
+    color: var(--yellow);
 }
 
-.aulab{
-    margin: 50px;
-    margin-top: 150px;
+.section2-custom{
+    background-color: var(--main);
 }
 
-.background-container5{
-    width: 100%;
-    height: 80vh; 
-    background-image: url('./media/bg-3.jpg');
+.calendar-form{
+    font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.section3-custom{
+    min-height: 70vh;
+    background-image: url(./media/bg-2.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.marco-insabato{
-    width: 350px;
+.form-custom{
+    background-color: var(--main);
+    padding: 70px 30px;
+    border-radius: 20px;
+    top: 100px;
 }
 
-.article{
-    padding-top: 100px;
+input{
+    background-color: var(--main);
+    border: none;
+    border-bottom: 1px solid var(--acc);
+}
+
+.section4-custom{
+    background-color: rgb(28, 21, 68);
+    padding: 100px 20px;
 
 }
 
+.h2-title{
+    color: var(--yellow);
+}
 
-@media (max-width: 700px)  {
+.section5-custom{
+    background-image: url(./media/bg-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    .game-arcade{
-        width: 300px;
-
-    }
-
-    .logo-neon{
-        margin-left: 300px;
-        width: 200px;
-        height: 200px;
-    }
-
-    .logo-aulab{
-        width: 200px;
-        height: 200px;
-        margin-top: 200px;
-    }
-    
-
-    .marco-insabato{
-        width: 100px;
-        height: 200px;
-
-    }
-
-
-    .text-custom1{
-        font-size: small;
-    }
-
-    .marco-insabato{
-        width: 200px;
-        height: 300px;
-    }
-
-    .article{
-        margin-right: 200px;
-    }
+.h2title{
+    color: var(--yellow);
 }
